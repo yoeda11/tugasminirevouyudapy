@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.headatas {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: aqua;
+}
+
+    .headatas .atas {
+        width: 100px;
+        background-color: aquamarine;
+    }
+
+    .headatas .ataskanan {
+        background-color: #fd0202;
+        
+        width: 100%; 
+    }
+
+    .headatas .ataskanan ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .headatas .ataskanan ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .headatas .ataskanan ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .headatas .ataskanan ul li a:hover {
+        text-decoration: underline;
+    }
+
+.mainats {
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.formatas {
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+}
