@@ -8,23 +8,23 @@ body {
     width: 80%;
     margin: auto;
     display: flex;
-    background-color: aqua;
+    background-color: #58A0C8;
 }
 
     .headatas .atas {
         width: 100px;
-        background-color: aquamarine;
+        background-color: #58A0C8;
     }
 
     .headatas .ataskanan {
-        background-color: #fd0202;
-        
+        background-color: #58A0C8;
+        margin: auto;
         width: 100%; 
     }
 
     .headatas .ataskanan ul {
         list-style-type: none;
-        margin: 0;
+        margin: auto;
         padding: 0;
         text-align: center;
     }
@@ -32,6 +32,7 @@ body {
     .headatas .ataskanan ul li {
         display: inline;
         margin-right: 20px;
+        border: #fff 1px solid;
     }
 
     .headatas .ataskanan ul li a {
@@ -47,17 +48,41 @@ body {
 .mainats {
     width: 80%;
     margin: auto;
-    background-color: aqua;
+    background-color: #113F67;
 }
+
+    .mainats .mainpertama {
+        padding: 50px;
+        text-align: center;
+        color: #fff;
+    }
+    
+
+    .mainats .mainkedua {
+        padding: 50px;
+        text-align: center;
+        color: #fff;
+    }
+
 
 .formatas {
     width: 80%;
     margin: auto;
-    background-color: aqua;
+    text-align: center;
+    color: #113F67;
+    background-color: #58A0C8;
+
 }
 
 .footer {
     width: 80%;
-    margin: auto;
-    background-color: aqua;
+		margin: auto;
+		background-color: #000957;
+		height: 30px;
+		font-size: 12px;
+		color: #fff; /*warna font*/
+}
+.footer p {
+    text-align: center;
+    padding: 10px 0;
 }
