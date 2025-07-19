@@ -76,11 +76,11 @@ body {
 
 .footer {
     width: 80%;
-		margin: auto;
-		background-color: #000957;
-		height: 30px;
-		font-size: 12px;
-		color: #fff; /*warna font*/
+	margin: auto;
+	background-color: #000957;
+	height: 30px;
+	font-size: 12px;
+	color: #fff; /*warna font*/
 }
 .footer p {
     text-align: center;
